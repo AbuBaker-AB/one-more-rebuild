@@ -1,2 +1,2 @@
-const pi = 3.1416;
-  // print(pi);
+numbers.clear();
+  // print(numbers);
