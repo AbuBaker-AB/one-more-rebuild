@@ -1,4 +1,4 @@
-main() {
+void main() {
   String fname = "abu";
   String lname = "baker";
 
@@ -8,7 +8,7 @@ main() {
 
   //Topic: Concatenation
 
-  String fullName = fname + " " + lname;
+  String fullName = "$fname $lname";
   String fullName2 = "$fname $lname";
 
   print ("$fname $lname");
