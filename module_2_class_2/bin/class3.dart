@@ -34,10 +34,10 @@ void main() {
   numbers.removeLast();
   print(numbers);
 
-  print('List length : ${numbers.length}');
-
   List reverse = numbers.reversed.toList();
   print(reverse);
+
+  print('List length : ${numbers.length}');
 
   numbers.clear();
   print(numbers);
