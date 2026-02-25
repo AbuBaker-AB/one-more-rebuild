@@ -56,7 +56,7 @@ void main() {
   //Pattern Matching
   int hour = 10;
 
-  String timeOfDay = switch (hour) {
+  String timeOfDay = switch (hour) {  //switch expression
     >= 0 && < 12 => 'Morning',
     12 => 'Noon',
     > 12 && < 18 => 'Afternoon',
