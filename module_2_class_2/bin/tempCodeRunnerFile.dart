@@ -1,2 +1,0 @@
-numbers.clear();
-  // print(numbers);
