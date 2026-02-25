@@ -1,5 +1,10 @@
-import 'package:module_3/module_3.dart' as module_3;
+void main() {
+  bool isNewInstall = false;
 
-void main(List<String> arguments) {
-  print('Hello world: ${module_3.calculate()}!');
+  if (isNewInstall) {
+    print('Onboarding Screen');
+    print('Login Screen');
+  } else {
+    print('Login Screen');
+  }
 }
