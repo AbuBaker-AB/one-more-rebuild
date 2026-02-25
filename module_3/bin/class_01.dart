@@ -1,6 +1,7 @@
 void main() {
   bool isNewInstall = false;
 
+  // ignore: dead_code
   if (isNewInstall) {
     print('Onboarding Screen');
     print('Login Screen');
@@ -64,4 +65,6 @@ void main() {
   };
 
   print(timeOfDay);
+
+  //switch can only check single value
 }
