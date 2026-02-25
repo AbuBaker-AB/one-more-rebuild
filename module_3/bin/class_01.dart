@@ -41,6 +41,27 @@ void main() {
     default:
       print('Unknown command');
   }
+
+  // use when we need multiple conditions
+  if (command == 'OPEN' || command == 'open') {
+    print('Opening the file');
+  } else if (command == 'CLOSE' || command == 'close') {
+    print('Closing the file');
+  } else if (command == 'SAVE' || command == 'save') {
+    print('Saving the file');
+  } else {
+    print('Unknown command');
+  }
+
+  //Pattern Matching
+  int hour = 10;
+
+  String timeOfDay = switch (hour) {
+    >= 0 && < 12 => 'Morning',
+    12 => 'Noon',
+    > 12 && < 18 => 'Afternoon',
+    _ => 'Evening',
+  };
+
+  print(timeOfDay);
 }
-
-
