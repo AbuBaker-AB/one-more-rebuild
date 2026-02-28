@@ -45,4 +45,19 @@ void main() {
     print('Number: $number');
     number++; //number = number + 1
   } while (number < 5);
+
+
+  // Some practice problems
+
+  const favMovies = ['Inception', 'The Matrix', 'Interstellar', 'The Dark Knight', 'Parasite'];
+
+  print('--- Your WatchList ---');
+
+  if (favMovies.isEmpty){
+    print('Looks like you have no movies in your watchlist. Time to add some!');
+  } else {
+    for (int i = 0; i < favMovies.length; i++){
+      print("$i) ${favMovies[i]}");
+    }
+  }
 }
