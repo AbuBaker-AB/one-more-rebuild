@@ -27,12 +27,18 @@ void main() {
     if (batteryLevel == 3 && isCharging == false) {
       print('Battery low! Please connect to charger.');
 
-      isCharging = true; // Simulate connecting to charger
-      batteryLevel += 2; // Simulate charging
+      isCharging = true; 
+
+      // Simulate charging
+      batteryLevel = batteryLevel + 2;
+
       //isCharging = false; // Stop charging after one cycle
     }
     batteryLevel--; //Important: Change the condition to avoid infinite loop!
   }
   print('System Shutting down...');
-  
+
+
+  // Do while loop
+
 }
