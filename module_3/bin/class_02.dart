@@ -27,7 +27,7 @@ void main() {
     if (batteryLevel == 3 && isCharging == false) {
       print('Battery low! Please connect to charger.');
 
-      isCharging = true; 
+      isCharging = true;
 
       // Simulate charging
       batteryLevel = batteryLevel + 2;
@@ -38,7 +38,11 @@ void main() {
   }
   print('System Shutting down...');
 
-
   // Do while loop
+  int number = 10;
 
+  do{
+    print('This prints once, even though 10 is not < 5');
+    number++; //number = number + 1
+  } while (number < 5);
 }
