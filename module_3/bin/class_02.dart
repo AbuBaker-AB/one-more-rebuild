@@ -1,8 +1,7 @@
 // For loop || While loop || Do while loop
 
-
-// For loop
-void main(){
+void main() {
+  // For loop
   List<int> numbers = [1, 2, 3, 4, 5];
 
   print('Starting for loop');
@@ -10,4 +9,30 @@ void main(){
     print(numbers[i]);
   }
   print('Ending for loop');
+
+  //one time initialization int i = 0;
+  // evevrytime condition check i < numbers.length
+  // print
+  // everytime increment i++ (i = i + 1) (i = 0 + 1 => i = 1)
+
+  // While loop
+  int batteryLevel = 5;
+
+  bool isCharging = false;
+
+  //Keep running while battery is positive
+  while (batteryLevel > 0) {
+    print('Battery: $batteryLevel% - Still running...');
+
+    if (batteryLevel == 3 && isCharging == false) {
+      print('Battery low! Please connect to charger.');
+
+      isCharging = true; // Simulate connecting to charger
+      batteryLevel += 2; // Simulate charging
+      //isCharging = false; // Stop charging after one cycle
+    }
+    batteryLevel--; //Important: Change the condition to avoid infinite loop!
+  }
+  print('System Shutting down...');
+  
 }
