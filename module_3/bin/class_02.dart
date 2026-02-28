@@ -42,7 +42,7 @@ void main() {
   int number = 10;
 
   do{
-    print('This prints once, even though 10 is not < 5');
+    print('Number: $number');
     number++; //number = number + 1
   } while (number < 5);
 }
