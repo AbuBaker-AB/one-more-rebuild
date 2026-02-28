@@ -5,7 +5,9 @@
 void main(){
   List<int> numbers = [1, 2, 3, 4, 5];
 
+  print('Starting for loop');
   for (int i = 0; i < numbers.length; i++) {
     print(numbers[i]);
   }
+  print('Ending for loop');
 }
