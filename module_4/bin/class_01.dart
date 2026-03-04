@@ -20,7 +20,8 @@ void labelAndStore() {
   print('Store it');
 }
 
-String greetings(String name){
-  return 'Hello, $name!';
-}
+// String greetings(String name){
+//   return 'Hello, $name!';
+// }
 
+String greetings(String name) => 'Hello, $name!'; //Arrow function for single expression functions
