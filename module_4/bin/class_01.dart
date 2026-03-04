@@ -4,6 +4,8 @@ void main() {
   labelAndStore();
   print("Here is box 2 - Give");
   labelAndStore();
+
+  greetings("Alice"); //might give error here
 }
 
 // KISS - Keep It Simple Stupid
@@ -17,3 +19,8 @@ void labelAndStore() {
   print("Label it");
   print('Store it');
 }
+
+String greetings(String name){
+  return 'Hello, $name!';
+}
+
