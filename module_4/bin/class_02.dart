@@ -63,5 +63,10 @@ void main() {
 }
 
 void greeting(String firstName, [String? LastName]) {
+  if (LastName != null) {
+    print('Hello,  $LastName!');
+    return;
+  }
+
   print('Hello, $firstName!');
 }
