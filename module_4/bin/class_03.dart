@@ -15,6 +15,7 @@ void main(){
   ///anonymous: () {}
   ///to call: ${(() {})()}
   
+  /// print('User name: ${(() => 'John')()}');
 }
 
 void greet() {}
