@@ -3,6 +3,10 @@
 void main(){
   final userName = () {
     return 'John';
-  };
-  print('userName: ${userName()}');
+  }();
+
+  greet();
+  print('userName: ${userName}');
 }
+
+void greet() {}
