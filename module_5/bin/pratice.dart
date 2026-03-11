@@ -3,7 +3,14 @@ class SavingsAccount {
   // SavingsAccount( this.customerName, this.fund);
   SavingsAccount({required this.customerName, required this.fund}); //default constructor
 
+  SavingsAccount.foreign({
+    required this.customerName,
+    required this.hasPassport, 
+    required this.fund
+    }); //named constructor
+
   final String customerName;
+  bool hasPassport = false;
   int fund;
 
   void displayFund() {
@@ -33,4 +40,14 @@ void main() {
   johnAccount.withdrawMoney(500);
   // doeAccount.withdrawMoney(1000);
   // smithAccount.withdrawMoney(1500);
+
+  final motinMia = SavingsAccount(customerName: 'Motin Mia', fund: 5000);
+  motinMia.withdrawMoney(2000);
+
+  final bobAccount = SavingsAccount.foreign(
+    customerName: 'Bob', 
+    hasPassport: true, 
+    fund: 3000
+    );
+  bobAccount.withdrawMoney(1000);
 }
