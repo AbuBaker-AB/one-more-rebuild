@@ -9,12 +9,12 @@ class House {
   final String color;
 }
 
-class <Class_Name> {
-  //COnstrutor
+// class <Class_Name> {
+//   //COnstrutor
 
-  //Properties
-  //Methods
-}
+//   //Properties
+//   //Methods
+// }
 
 void main() {
   //Object
