@@ -16,10 +16,10 @@ class House {
 //   //Methods
 // }
 
-void main() {
-  //Object
-  final myHouse = House('My House', 'Gulshan-1, Dhaka', 'Blue');
+// void main() {
+//   //Object
+//   final myHouse = House('My House', 'Gulshan-1, Dhaka', 'Blue');
 
-  final anotherHouse = House('Another House', 'Gulshan-1, Dhaka', 'Red');
+//   final anotherHouse = House('Another House', 'Gulshan-1, Dhaka', 'Red');
 
-}
+// }
