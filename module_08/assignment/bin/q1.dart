@@ -11,7 +11,7 @@ class Book {
     return finalPrice;
   }
 
-  void displayInfo(double discountPercent) {
+  void displayInfo() {
     print("Title: $title");
     print("Author: $author");
     print("Original Price: \$${price.toStringAsFixed(2)}");
@@ -20,11 +20,11 @@ class Book {
 
  void main() {
     Book book1 = Book("Sherlock Holmes", "Arthur Conan Doyle", 26.99);
-    book1.displayInfo(20);
+    book1.displayInfo();
     print("Discounted Price (20%): \$${book1.discountedPrice(20).toStringAsFixed(2)}\n");
 
 
     Book book2 = Book("Ulysses", "James Joyce", 9.70);
-    book2.displayInfo(5);
+    book2.displayInfo();
     print("Discounted Price (5%): \$${book2.discountedPrice(5).toStringAsFixed(2)}");
   }
