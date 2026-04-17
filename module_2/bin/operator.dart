@@ -7,7 +7,7 @@
 // -expr	Unary minus (negation)
 
 
-main() {
+void main() {
   int num1 = 100;
   int num2 = 50;
 
