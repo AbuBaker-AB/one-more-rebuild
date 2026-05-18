@@ -1,6 +1,7 @@
-import 'package:basic_widgets_and_ui_elements/app.dart';
 import 'package:flutter/cupertino.dart';
 
-main(){ 
+import 'app.dart';
+
+void main(){
   runApp(MyApp());
 }
