@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -11,16 +10,171 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepPurple,
         title: Text('Flutter 16'),
         centerTitle: true,
+
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          Text('Hello World', style: TextStyle(...),),
-          Text('Hello World', style: TextStyle(...),),
-          Text('Hello World', style: TextStyle(...),),
-          Text('Hello World', style: TextStyle(...),),
-        ],
-      )
+      body: SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  Text('Hello world',style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent,
+                  )),
+                  Text('Hello world',style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent,
+                  )),
+                  Text('Hello world',style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent,
+                  )),
+                  Text('Hello world',style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blueAccent,
+                  )),
+                ],
+              ),
+            ),
+
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+            Text('Hello world',style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blueAccent,
+            )),
+
+
+
+
+
+          ],
+        ),
+
+
+      ),
     );
   }
 }
