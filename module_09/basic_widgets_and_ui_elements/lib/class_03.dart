@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class Class3 extends StatelessWidget {
@@ -90,15 +91,21 @@ class Class3 extends StatelessWidget {
 
             GestureDetector(
                 onTap: (){
-                  print('on tap');
+                  if (kDebugMode) {
+                    print('on tap');
+                  }
                 },
 
                 onLongPress: (){
-                  print('on long press');
+                  if (kDebugMode) {
+                    print('on long press');
+                  }
                 },
 
                 onDoubleTap: (){
-                  print('D press');
+                  if (kDebugMode) {
+                    print('D press');
+                  }
                 },
 
                 child: Text('Test text',style: TextStyle(fontSize: 50),)),
@@ -106,15 +113,21 @@ class Class3 extends StatelessWidget {
 
             InkWell(
                 onTap: (){
-                  print('on tap');
+                  if (kDebugMode) {
+                    print('on tap');
+                  }
                 },
 
                 onDoubleTap: (){
-                  print('D tap');
+                  if (kDebugMode) {
+                    print('D tap');
+                  }
                 },
 
                 onLongPress: (){
-                  print('long tap');
+                  if (kDebugMode) {
+                    print('long tap');
+                  }
                 },
 
                 child: Text('Test2',style: TextStyle(fontSize: 50),))
